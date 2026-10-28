@@ -8,7 +8,7 @@ modelo híbrido, usando PySpark sobre el dataset MIND de Microsoft.
 ## Estructura
 
 ```
-configs/      Configuración por entorno (small / large)
+configs/      Configuración del entorno (small)
 src/          Código reutilizable: lectura, preprocesamiento, modelos, evaluación
 notebooks/    EDA, preprocesamiento, modelos y evaluación final (en orden)
 scripts/      Script para MIND-large en AWS EMR
