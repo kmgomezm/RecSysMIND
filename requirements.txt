@@ -1,0 +1,9 @@
+pyspark==4.0.2
+jupyter
+pandas
+numpy                    # requerido por pyspark.ml
+pyarrow                  # toPandas() eficiente y lectura de parquet en pandas
+matplotlib
+pyyaml                   # configs/small.yaml y large.yaml
+scikit-learn             # validación de las métricas (02b)
+sentence-transformers    # embeddings MiniLM (04b, 08a); instala PyTorch

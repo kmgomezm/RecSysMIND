@@ -1,0 +1,18 @@
+dataset: small
+
+paths:
+  raw: data/raw
+  processed: data/processed/small
+  figures: results/figures
+
+splits:
+  train: MINDsmall_train
+  dev: MINDsmall_dev
+
+validation_date: "2019-11-14"
+
+spark:
+  app_name: MIND
+  master: "local[*]"
+  driver_memory: 4g
+  shuffle_partitions: 32

@@ -1,0 +1,22 @@
+# Entorno virtual
+venv/
+
+# Datos (MIND no se redistribuye; ver README)
+data/
+
+# Resultados de prueba o temporales
+results/prueba_script/
+results/large/
+
+# Python y Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Spark
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Editor
+.vscode/
