@@ -1,0 +1,2 @@
+fuente,envio,modelo,auc,mrr,ndcg5,ndcg10,puesto_leaderboard
+CodaLab MIND official test,1017978,hibrido_ctr_estatico_a20_w0.6,0.6524,0.3115,0.3367,0.3942,53
